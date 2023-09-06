@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    background-color: rgb(16, 203, 57);
+    height: 80vh;
+    width: 60vh;
+    padding: 0px 50px;
+    display: block;
+    margin: auto;
+    margin-top: 6rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#form{
+    position: relative;
+    position: relative;
+    top: 20%;
+}
+
+#form input{
+    position: relative;
+    width: 80%;
+    height: 3rem;
+    margin: 1rem;
+    padding: 0px 10px;
+    font-weight: 900;
+    border-radius: 4px;
+    border:1px solid rgba(0, 0, 0, 0.518);
+}
+
+.submit{
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 1.09rem;
+    border-radius: 4px;
+    border: none;
+}
+
+
+.label{
+    letter-spacing: -1.5px;
+    font-family: monospace;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.loworhigh{
+    position: relative;
+    top: 35%;
+    font-size: 1.2rem;
+}
+
+.information{
+    position: relative;
+    top: 40%;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+.Remain-attempt{
+    color:red;
+}
+
+.yourguess{
+    margin: 0.7rem;
+}
+
+.guess{
+    color: white;
+}
+
+.newgame{
+    position: relative;
+    top: 45%;
+    display: none;
+}
+
+.newgame button{
+    padding:0.4rem 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+@media(width <= 1024px){
+    .container{
+        width: 60vw;
+        height: 80vh;
+    }
+
+    #form input{
+        position: relative;
+        width: 90%;
+    }
+}
+
+@media(width < 400px){
+    .container{
+        width: 80vw;
+        height: 60vh;
+    }
+    #form input{
+        position: relative;
+        width: 90%;
+    }
+}
